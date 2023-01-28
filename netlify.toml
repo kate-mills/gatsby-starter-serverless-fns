@@ -1,2 +1,6 @@
 [build]
   functions = './netlify/functions'
+
+[[edge_functions]]
+  path = "/geolocation"
+  function = "geolocation"
